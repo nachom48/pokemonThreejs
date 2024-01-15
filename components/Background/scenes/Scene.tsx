@@ -5,11 +5,11 @@ import Luces from "../clases/Luces"
 import Charizard from "../clases/pokemon/Charizard"
 import Entei from "../clases/pokemon/Entei"
 import Groudon from "../clases/pokemon/Groudon"
+import Hierba from "../clases/pokemon/Hierba"
 import Logo from "../clases/pokemon/Logo"
 import Pokeball from "../clases/pokemon/Pokeball"
 import Zekrom from "../clases/pokemon/Zekrom"
 import Skybox from "../clases/Skybox"
-import Hierba from "../clases/pokemon/Hierba"
 
 
 export default class Scene extends SceneThree {
@@ -27,7 +27,7 @@ export default class Scene extends SceneThree {
         new Groudon(this, loader)
         new Charizard(this, loader)
         new Zekrom(this, loader)
-        new Hierba(this,loader);
+        new Hierba(this, loader)
         this.update(renderer)
     }
 
